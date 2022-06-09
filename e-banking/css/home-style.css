@@ -1,0 +1,523 @@
+.Loan-types a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+    display: flex;
+    margin: 5rem 0rem;
+}
+
+.main .left {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+    align-content: center;
+    align-items: center;
+    padding: 5rem .2rem;
+    margin: 3rem;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 8rem;
+}
+
+.main h3 {
+    margin: 0.5rem 3rem;
+    color: green;
+    font-size: 1.5rem;
+}
+
+.main h1 {
+    font-size: 3.5rem;
+    margin: 0.5rem 3rem;
+    margin-right: .5rem;
+}
+
+.main p {
+    font-size: 1.2rem;
+    margin: 3rem 3rem;
+    margin-right: 5rem;
+    margin-top: 0.5rem;
+    color: gray;
+}
+
+.main img {
+    width: 60%;
+    margin-right: 0rem;
+}
+
+.Open-account {
+    border: 1px solid #333;
+    background-color: #333;
+    border-radius: 50px;
+    color: white;
+    padding: 15px;
+    margin: 4rem 3rem;
+    margin-right: .5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.Open-account:hover {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.Get-in-touch {
+    border: 1px solid #333;
+    background-color: #f7f7f7;
+    border-radius: 50px;
+    color: black;
+    padding: 15px;
+    margin: 4rem .4rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.Get-in-touch:hover {
+    background-color: #333;
+    color: white;
+}
+
+.services {
+    margin: 0rem;
+    padding: 0;
+    margin: 1rem 4rem;
+}
+
+.Notifications {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    height: 100%;
+}
+
+.Notifications img {
+    width: 30%;
+}
+
+.Notifications .left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    width: 40%;
+}
+
+.Notifications h3 {
+    color: green;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Notifications h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-top: 0rem;
+}
+
+.Notifications p {
+    font-size: 1rem;
+    color: gray;
+    padding: 0rem;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.safe-saving {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 1rem;
+    height: 100%;
+}
+
+.safe-saving .left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    width: 40%;
+}
+
+.safe-saving h3 {
+    color: green;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.safe-saving h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-top: 0rem;
+}
+
+.safe-saving img {
+    width: 30%;
+}
+
+.safe-saving p {
+    font-size: 1rem;
+    color: gray;
+    padding: 0rem;
+    padding-right: 0;
+    margin-top: 0;
+}
+
+.accounts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    height: 100%;
+}
+
+.accounts .left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    align-items: center;
+    padding: 3rem 8rem 0rem 8rem;
+    margin: .5rem 8rem;
+}
+
+.accounts .left p {
+    color: gray;
+    margin: 0rem 8rem;
+    text-align: center;
+}
+
+.accounts .left h3 {
+    color: green;
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.accounts .left h1 {
+    text-align: center;
+    width: 90%;
+    margin-top: 0.5rem;
+}
+
+.accounts-types {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 8rem 0rem 8rem;
+    margin: 1rem 5rem;
+    gap: 1rem;
+}
+
+.accounts-types div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    box-shadow: 0px 0px 10px #a0a0a0;
+    border-radius: 16px;
+    padding: .5rem;
+}
+
+.accounts-types div p {
+    color: #969595;
+    text-align: center;
+}
+
+.accounts-types div span {
+    background-color: #333;
+    border-radius: 60%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.accounts-types div img {
+    filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+}
+
+.accounts-types div a {
+    text-decoration: none;
+    color: #333;
+}
+
+.accounts-types div a label.link-text {
+    transition: .5s ease-out;
+    font-weight: bold;
+}
+
+.accounts-types div a label.arrow {
+    transition: .5s ease-out;
+}
+
+.accounts-types div a label.link-text:hover {
+    margin-right: 1rem;
+    transition: .5s ease-out;
+}
+
+.accounts-types div a label.arrow:hover {
+    margin-left: 1rem;
+    transition: .5s ease-out;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    padding: 3rem;
+    height: 100%;
+    flex: 1;
+}
+
+.card img {
+    width: 445px;
+    height: 267px;
+}
+
+.card .left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.card .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 5rem;
+    width: 50%;
+}
+
+.card h3 {
+    color: green;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.card h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+    margin-right: 4rem;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: gray;
+    padding: 0rem;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.card a {
+    border: 1px solid #333;
+    background-color: #333;
+    border-radius: 30px;
+    color: white;
+    margin-top: 1rem;
+    padding: 15px;
+    font-size: large;
+    text-decoration: none;
+    align-self: center;
+}
+
+.card a:hover {
+    background-color: white;
+    color: #333;
+}
+
+.Loan {
+    display: flex;
+    margin: 5rem 5rem;
+    margin-bottom: 8rem;
+    padding: 2rem;
+}
+
+.Loan .left {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem;
+    width: 50%;
+    padding: 0;
+}
+
+.Loan h3 {
+    margin: 1rem 3rem;
+    color: green;
+    font-size: 1.5rem;
+}
+
+.Loan h1 {
+    font-size: 3.5rem;
+    margin: 1rem 0;
+}
+
+.Loan h3 {
+    margin: 1rem 0;
+}
+
+.Loan p {
+    color: gray;
+    font-size: .9rem;
+}
+
+.Loan .left a {
+    border: 1px solid #333;
+    background-color: #333;
+    border-radius: 16px;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    align-self: center;
+    margin: 1rem 0;
+}
+
+.Loan .left a:hover {
+    background-color: white;
+    color: #333;
+}
+
+.Loan-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.Loan-types div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem .5rem;
+    box-shadow: 0px 0px 10px #a0a0a0;
+    border-radius: 16px;
+    border: 1px solid #f7f7f7;
+    transition: .5s ease-out;
+}
+
+.Loan-types div:hover {
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem .5rem;
+    transition: .5s ease-out;
+}
+
+.Loan-types div ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Loan-types div ul li {
+    list-style: none;
+    padding: 0.5rem 0rem;
+}
+
+.Loan-types div span {
+    background-color: #333;
+    border-radius: 100%;
+    padding: .5rem;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #333;
+    border-radius: 15px;
+    margin: 8rem 5rem;
+    border: solid #333;
+}
+
+.get-started .left {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: .5rem;
+    padding: 2.9rem;
+}
+
+.get-started img {
+    position: absolute;
+    align-self: flex-end;
+    padding-right: .5rem;
+    padding-top: 4rem;
+}
+
+.get-started h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: #f7f7f7;
+}
+
+.get-started p {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: #e2e2e2;
+}
+
+.get-started a {
+    border: 1px solid #666;
+    background-color: #666;
+    border-radius: 16px;
+    color: #111;
+    padding: 15px;
+    text-decoration: none;
+    align-self: flex-start;
+}
+
+.get-started a:hover {
+    background-color: #333;
+    color: #f7f7f7;
+}
+
+@media (max-width: 800px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin: 0rem;
+    }
+    .main .left {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .main h1 {
+        margin: 1rem;
+    }
+    .main p {
+        margin: 1rem 5rem;
+        padding: 1rem;
+        text-align: center;
+        color: gray;
+    }
+    .main img {
+        display: none;
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        margin: 0rem;
+    }
+    .Notifications {
+        display: flex;
+        margin: 1rem;
+        height: 100%;
+    }
+    .Notifications img {
+        display: none;
+    }
+    .Notifications .left {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .Notifications h1 {
+        margin: 1rem;
+    }
+    .Notifications p {
+        margin: 1rem 5rem;
+        padding: 1rem;
+        text-align: center;
+        color: gray;
+    }
+}

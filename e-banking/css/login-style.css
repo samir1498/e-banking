@@ -1,0 +1,86 @@
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.login-form-container form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0 0 5px #333;
+}
+
+.login-form-container form table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.login-form-container form table tr {
+    width: 100%;
+}
+
+.login-form-container form table tr td {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: .5rem;
+}
+
+input {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #f7f7f7;
+    border-bottom: solid #333 2px;
+    padding: 5px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+input[type='submit'] {
+    width: 40%;
+    align-self: center;
+    border: 1px solid #333;
+    border-radius: 16px;
+    color: #f7f7f7;
+    background-color: #333;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input[type='submit']:hover {
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+.login-form-container form table tr td a {
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+    padding: .5rem;
+}
+
+.login-form-container form table tr td a:hover {
+    color: #888;
+}
+
+.login-form-container i {
+    position: absolute;
+    align-self: flex-start;
+    padding-top: .5rem;
+}

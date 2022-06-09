@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/navbar-style.css">
+    <link rel="stylesheet" href="../css/register-style.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/8c6714b564.js"></script>
+
+    <nav class="navbar">
+        <div class="brand-title"><a href="../index.html"><i class="fa-solid fa-building-columns"></i> <label> Bank </label></a></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="register-forms-container">
+
+        <div class="btn-cotainer">
+            <button type="button" class="individual-btn active">Individual</button>
+            <button type="button" class="organisation-btn">Organisation</button>
+        </div>
+
+        <form class="organisation-form" action="">
+            <h1>Register</h1>
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input class="name" type="text" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Industrie"> Industrie </label></td>
+                    <td><input type="text" name="Industrie" id="Industrie" required /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="ofdate">Founding date</label></td>
+                    <td><input type="date" name="" id="ofdate" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="oemail">Email</label></td>
+                    <td><input type="email" name="" id="oemail" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone number</label></td>
+                    <td><input type="tel" required></td>
+                </tr>
+                <tr>
+                    <td><label for="ocountry">Nationalite</label></td>
+
+                    <td>
+                        <select name="Nationalite" id="ocountry" required>
+                        <option value="">Select your Nationalite</option>
+                        <option value="">Algeria</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="oaddress">Address</label></td>
+                    <td><input id="oaddress" type="text" name="adresse" required></td>
+                </tr>
+
+
+                <tr>
+                    <td><label>file</label></td>
+                    <td><input id="ofile" type="file" name="file" accept="image/*,.pdf" multiple required /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="userName">Username</label></td>
+                    <td><input id="ouserName" type="text" name="userName" required /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pass">Password</label></td>
+                    <td><input type="Password" id="opass" name="pass" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="repass">Confirm Password</label></td>
+                    <td><input type="Password" id="orepass" name="repass" required></td>
+                </tr>
+                <tr>
+                    <td><label for="accountType">Account type</label></td>
+                    <td><select name="accountType" id="oaccountType" required>
+							<option value="saving">Saving account</option>
+							<option value="current">Checking account</option>
+					</select></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="accountName">Account name</label></td>
+                    <td><input id="oaccountName" type="text" name="accountName" required></td>
+                </tr>
+                <tr>
+                    <td><label>Currency</label></td>
+                    <td><select name="currency" id="ocurrency" required>
+                        <option value="">Select a currency</option>
+                        <option value="$">$</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr class="submit">
+                    <td><input type="submit" value="Register" name="register-individu" class="register-submit" /></td>
+                </tr>
+            </table>
+
+        </form>
+
+        <!-- Individual form-->
+
+        <form class="individual-form" action="">
+            <h1>Register</h1>
+            <table>
+                <tr>
+                    <td><label for="firstname">Firstname</label></td>
+                    <td><input class="firstname" type="text" id="firstname" minlength="3" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Lastname</label></td>
+                    <td><input type="text" id="lastname" minlength="3" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td id="gender">
+                        <label for="male">Male
+                            <input type="radio" name="gender" id="male" value="male" checked>
+                            <span></span>
+                        </label>
+
+                        <label for="female">Female
+                            <input type="radio" name="gender" id="female" value="female">
+                            <span></span>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="birthdate">Birthdate</label></td>
+                    <td><input type="date" name="birthdate" id="birthdate" required></td>
+                </tr>
+                <tr>
+                    <td><label for="birthplace">Birth Place</label></td>
+                    <td><input type="text" id="birthplase" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone number</label></td>
+                    <td><input type="tel" id="phone" minlength="9" required></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Nationalite</label></td>
+
+                    <td>
+                        <select name="Nationalite" id="country" required>
+                        <option>Select your Nationalite</option>
+                        <option value="Algeria">Algeria</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><input id="address" type="text" name="adresse" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="IDType">ID type </label></td>
+                    <td><select id="IDType" name="ID_type" required>
+							<option value="ID">ID</option>
+							<option value="Driver's license">Driver's license</option>
+							<option value="Passport">Passport</option>
+
+					</select></td>
+                </tr>
+
+                <tr>
+                    <td><label for="idNumber">ID Number</label></td>
+                    <td><input id="idNumber" type="number" name="idNumber" required /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="file">ID file</label></td>
+                    <td><input id="file" type="file" name="file" accept="image/*,.pdf" multiple required /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="userName">Username</label></td>
+                    <td><input id="userName" type="text" name="userName" required /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pass">Password</label></td>
+                    <td><input type="Password" id="pass" name="pass" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="repass">Confirm Password</label></td>
+                    <td><input type="Password" id="repass" name="repass" required></td>
+                </tr>
+                <tr>
+                    <td><label for="accountType">Account type</label></td>
+                    <td><select name="accountType" id="accountType" required>
+                        <option >Select an account type</option>
+							<option value="saving">Saving account</option>
+							<option value="current">Checking account</option>
+					</select></td>
+                </tr>
+
+                <tr>
+                    <td><label for="accountName">Account name</label></td>
+                    <td><input id="accountName" type="text" name="accountName" required></td>
+                </tr>
+                <tr>
+                    <td><label for="currency">Currency</label></td>
+                    <td><select name="currency" id="currency" required>
+                        <option value="">Select a currency</option>
+                        <option value="$">$</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr class="submit">
+                    <td><input type="submit" value="Register" name="register-individu" class="register-submit" /></td>
+                </tr>
+            </table>
+
+        </form>
+
+    </div>
+
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0];
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0];
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active');
+        });
+
+        //validator
+        $.validator.addMethod("strong_password", function(value, element) {
+            let password = value;
+            if (!(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[.@#$%&])(.{8,20}$)/
+                    .test(password))) {
+                return false;
+            }
+            return true;
+        }, function(value, element) {
+            let password = $(element).val();
+            if (!(/^(.{8,20}$)/.test(password))) {
+                return 'Password must be between 8 to 20 characters long.';
+            } else if (!(/^(?=.*[A-Z])/.test(password))) {
+                return 'Password must contain at least one uppercase.';
+            } else if (!(/^(?=.*[a-z])/.test(password))) {
+                return 'Password must contain at least one lowercase.';
+            } else if (!(/^(?=.*[0-9])/.test(password))) {
+                return 'Password must contain at least one digit.';
+            } else if (!(/^(?=.*[.@#$%&])/.test(password))) {
+                return "Password must contain special characters from @#$%&.";
+            }
+            return false;
+        });
+        //toggle forms
+        $(document).ready(function() {
+            $('.organisation-form').hide();
+            $('.individual-form').show();
+            $('.firstname').focus();
+
+            $(".individual-form").validate({
+                errorClass: "error fail-alert",
+                validClass: "valid success-alert",
+                rules: {
+                    pass: {
+                        required: true,
+                        strong_password: true,
+                    },
+                    repass: {
+                        required: true,
+                        equalTo: '#pass',
+
+                    }
+
+                },
+
+            });
+            $('#pass').on('keyup', function() {
+                $(".individual-form").validate().element('#pass').valid();
+            });
+
+            $('#pass, #repass').on('keyup', function() {
+                if ($('#pass').val() == $('#repass').val()) {
+                    $('#repass').css("border", "1px solid green");
+                } else
+                    $('#repass').css("border", "1px solid red");
+            });
+            //
+            $('#opass').on('keyup', function() {
+                $(".individual-form").validate().element('#opass').valid();
+            });
+
+            $('#opass, #orepass').on('keyup', function() {
+                if ($('#opass').val() == $('#orepass').val()) {
+                    $('#orepass').css("border", "1px solid green");
+                } else
+                    $('#orepass').css("border", "1px solid red");
+            });
+        });
+
+        $('.organisation-btn').on('click',
+            function() {
+
+                $('.organisation-form').show();
+                $('.individual-form').hide();
+                $('.organisation-btn').addClass('active');
+                $('.individual-btn').removeClass('active');
+                $('.name').focus();
+
+
+            }
+        );
+
+        $('.individual-btn').on('click',
+            function() {
+                $('.individual-form').show();
+                $('.organisation-form').hide();
+                $('.individual-btn').addClass('active');
+                $('.organisation-btn').removeClass('active');
+                $('.firstname').focus();
+            }
+        );
+    </script>
+
+</body>
+
+</html>

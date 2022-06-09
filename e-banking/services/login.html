@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/navbar-style.css">
+    <link rel="stylesheet" href="../css/login-style.css">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/8c6714b564.js"></script>
+
+    <nav class="navbar">
+        <div class="brand-title"><a href="../index.html"><i class="fa-solid fa-building-columns"></i> <label> Bank </label></a></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="login-form-container">
+        <form action="">
+            <h1>LOGIN</h1>
+            <table>
+                <tr>
+                    <td><i class="fa-solid fa-user"></i><input id="username" type="text" name="username" placeholder="Username" autofocus></td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-lock"></i><input id="password" type="password" name="pass" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Login"></td>
+                </tr>
+                <tr>
+                    <td><a href="">Forgot Password?</a></td>
+                </tr>
+            </table>
+
+        </form>
+
+
+    </div>
+
+
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0];
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0];
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active');
+        });
+    </script>
+
+
+
+</body>
+
+</html>
